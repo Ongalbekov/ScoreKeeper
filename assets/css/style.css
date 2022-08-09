@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400;500;600;700;800;900&family=Special+Elite&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #2C2C2C;
+    }
+    main{
+        display: flex;
+    }
+
+#score1, #score2{
+width: 225px;
+height: 188px;
+font-family: 'Orbitron';
+font-weight: 400;
+font-size: 150px;
+line-height: 188px;
+color: #FDF860;
+padding: 25%;
+}
+h2{
+font-family: 'Orbitron';
+font-weight: 400;
+font-size: 37px;
+line-height: 46px;
+color: #FFFFFF;
+background-color: #2C2C2C;
+width: 30%;
+margin-left: 35%;
+margin-top: -11px;
+}
+/* ==================Home================== */
+.home, .away{
+width: 489px;
+height: 489px;
+border: 5px solid #97F5BB;
+border-radius: 40px;
+margin-top: 10%;
+}
+.container1{
+width: 419px;
+height: 419px;
+background: #000000;
+margin: 6% auto;
+border-radius: 30px;
+}
+.homebutton,  .homebutton2{
+width: 365px;
+height: 105px;
+display: inline-block;
+margin-top: 5%;
+
+}
+.score11, .score12, .score13, .score21, .score22, .score23{
+width: 105px;
+height: 105px;
+background: #97F5BB;
+border-radius: 20px;
+color: #ffffff;
+font-size: 37px;
+font-family: 'Lato';
+margin-top: 15%;
+}
+section:nth-of-type(1){
+    display:inline-block;
+    margin-left: 10%;
+    text-align: center;
+}
+/* ==================Away================== */
+.away{
+    border: 5px solid #525DF4;;
+}
+.container2{
+width: 419px;
+height: 419px;
+background: #000000;
+margin: 6% auto;
+text-align: center;
+border-radius: 30px;
+}
+.score21, .score22, .score23{
+    background-color:  #525DF4;;
+}
+section:nth-of-type(2){
+display: inline-block;
+text-align: center;
+margin-left: 10%;
+}
+/* ==================reset===================== */
+.reset{
+width: 122px;
+height: 39px;
+background: #FFFFFF;
+border-radius: 10px;
+margin-left: 45%;
+margin-top: 3%;
+}
+
+
