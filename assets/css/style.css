@@ -3,100 +3,75 @@
     padding: 0;
     margin: 0;
 }
-
 body{
     background: #2C2C2C;
     }
     main{
         display: flex;
     }
-
+section:nth-of-type(1), section:nth-of-type(2){
+min-width: 40%;
+}
 #score1, #score2{
-width: 225px;
-height: 188px;
 font-family: 'Orbitron';
 font-weight: 400;
-font-size: 150px;
-line-height: 188px;
+font-size: 100px;
 color: #FDF860;
-padding: 25%;
+text-align: center;
 }
 h2{
 font-family: 'Orbitron';
 font-weight: 400;
 font-size: 37px;
-line-height: 46px;
 color: #FFFFFF;
 background-color: #2C2C2C;
-width: 30%;
-margin-left: 35%;
-margin-top: -11px;
+position: absolute;
+left:35%;
+top:95%;
+text-align:center;
 }
 /* ==================Home================== */
 .home, .away{
-width: 489px;
-height: 489px;
+padding: 10%;
 border: 5px solid #97F5BB;
 border-radius: 40px;
 margin-top: 10%;
 }
-.container1{
-width: 419px;
-height: 419px;
+.container1,.container2{
 background: #000000;
-margin: 6% auto;
 border-radius: 30px;
 }
-.homebutton,  .homebutton2{
-width: 365px;
-height: 105px;
-display: inline-block;
-margin-top: 5%;
-
+.homebutton, .awaybutton{
+display: block;
+text-align: center;
 }
 .score11, .score12, .score13, .score21, .score22, .score23{
-width: 105px;
-height: 105px;
+width: 100px;
+height: 100px;
 background: #97F5BB;
 border-radius: 20px;
 color: #ffffff;
 font-size: 37px;
 font-family: 'Lato';
-margin-top: 15%;
-}
-section:nth-of-type(1){
-    display:inline-block;
-    margin-left: 10%;
-    text-align: center;
+margin-top: 10%;
+border: none;
 }
 /* ==================Away================== */
 .away{
     border: 5px solid #525DF4;;
 }
-.container2{
-width: 419px;
-height: 419px;
-background: #000000;
-margin: 6% auto;
-text-align: center;
-border-radius: 30px;
-}
 .score21, .score22, .score23{
     background-color:  #525DF4;;
 }
-section:nth-of-type(2){
-display: inline-block;
+/* ==================Reset===================== */
+footer{
 text-align: center;
-margin-left: 10%;
 }
-/* ==================reset===================== */
 .reset{
-width: 122px;
-height: 39px;
 background: #FFFFFF;
 border-radius: 10px;
-margin-left: 45%;
-margin-top: 3%;
+padding: 1.5rem 6rem;
+margin-top: 5%;
 }
 
 
